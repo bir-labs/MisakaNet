@@ -7,6 +7,37 @@ All notable changes to the Misaka Network project are documented here.
 
 ---
 
+## [3.6.0](https://github.com/Ikalus1988/MisakaNet/compare/v3.5.0...v3.6.0) (2026-11-02)
+
+
+### Features
+
+* **heartbeat:** report the marketplace action, from the only mark it leaves ([#4354](https://github.com/Ikalus1988/MisakaNet/issues/4354)) ([d09c51a](https://github.com/Ikalus1988/MisakaNet/commit/d09c51a05ca99217ddff732e4671b8b676475ed3))
+* **intake:** the form asks for the cause while the reporter still remembers it ([#4349](https://github.com/Ikalus1988/MisakaNet/issues/4349)) ([8fab170](https://github.com/Ikalus1988/MisakaNet/commit/8fab170021a5eca6a6e842899edc9e7fb870146b))
+* **intake:** the scheduled batch — and why its last mile is one click ([#4350](https://github.com/Ikalus1988/MisakaNet/issues/4350)) ([0493b1f](https://github.com/Ikalus1988/MisakaNet/commit/0493b1fc5346acb2c206dbdf0edf18c2cebbf2c3))
+* **lessons:** 348 summaries and triggers derived from the lessons' own sentences ([#4344](https://github.com/Ikalus1988/MisakaNet/issues/4344)) ([2e89742](https://github.com/Ikalus1988/MisakaNet/commit/2e89742274ec1c547df042139f2330eed041cce5))
+* **lessons:** adopt three lesson PRs — FANUC index, entry offsets, five generalizable lessons ([#4335](https://github.com/Ikalus1988/MisakaNet/issues/4335)) ([8f51b9e](https://github.com/Ikalus1988/MisakaNet/commit/8f51b9e94e182144828e57a4962d21924b478a7a))
+* **lessons:** batch 4 — ten submissions, and the two gate bugs they found ([#4322](https://github.com/Ikalus1988/MisakaNet/issues/4322)) ([23d66e9](https://github.com/Ikalus1988/MisakaNet/commit/23d66e95fd8a0e893b9dcc0db89bc818df01f917))
+* **lessons:** batch 5 — thirteen intake reports the converter used to refuse ([#4330](https://github.com/Ikalus1988/MisakaNet/issues/4330)) ([94ed70e](https://github.com/Ikalus1988/MisakaNet/commit/94ed70eb3c7c12685cf0617accb73a1ffca26e20))
+
+
+### Bug Fixes
+
+* **#4357, #4358:** one workflow count, and every read_text names its encoding ([#4359](https://github.com/Ikalus1988/MisakaNet/issues/4359)) ([327d266](https://github.com/Ikalus1988/MisakaNet/commit/327d26607bc70b7eab457d54f8129db96db70ae3))
+* **ci:** the Wrangler that deploys is the Wrangler the lockfile names ([#4364](https://github.com/Ikalus1988/MisakaNet/issues/4364)) ([5b3060c](https://github.com/Ikalus1988/MisakaNet/commit/5b3060c6e855968e21dbbebc6a4f2884e7604734))
+* **intake-batch:** check the gate before writing, and leave the feed alone ([#4355](https://github.com/Ikalus1988/MisakaNet/issues/4355)) ([8f2d2ca](https://github.com/Ikalus1988/MisakaNet/commit/8f2d2ca24d5499d9dc318fa4a44c9cdc7b901064))
+* **intake-batch:** install the whole requirements file, not one package ([#4351](https://github.com/Ikalus1988/MisakaNet/issues/4351)) ([ec588c6](https://github.com/Ikalus1988/MisakaNet/commit/ec588c62be942801335cf82bdbf1be12907eb943))
+* **intake:** an answered question that is still open was invisible to search ([#4332](https://github.com/Ikalus1988/MisakaNet/issues/4332)) ([405bcc4](https://github.com/Ikalus1988/MisakaNet/commit/405bcc43d94bd9a15cf93122c8e33322423fa48b))
+* **intake:** the receipt step pointed at a field no lesson has ever carried ([#4333](https://github.com/Ikalus1988/MisakaNet/issues/4333)) ([5b70037](https://github.com/Ikalus1988/MisakaNet/commit/5b70037a27779b572ba2232a90b38e83aad404c9))
+* **mcp:** the schema stops contradicting the handler it describes ([#4363](https://github.com/Ikalus1988/MisakaNet/issues/4363)) ([693a673](https://github.com/Ikalus1988/MisakaNet/commit/693a6731ea4c9ffa57dac30b728b88090fcf0231))
+* **scanning:** two real findings fixed, ten false positives to dismiss with reasons ([#4356](https://github.com/Ikalus1988/MisakaNet/issues/4356)) ([9d84edc](https://github.com/Ikalus1988/MisakaNet/commit/9d84edcb521b576d45396496497d125fc806937f))
+* **setup:** resolve mcode's data dir instead of assuming ~/.minimax (fixes [#3838](https://github.com/Ikalus1988/MisakaNet/issues/3838)) ([#4319](https://github.com/Ikalus1988/MisakaNet/issues/4319)) ([ccd2d80](https://github.com/Ikalus1988/MisakaNet/commit/ccd2d80c762d5cbcad6dc98a5d56fdc192fbb47d))
+
+
+### Documentation
+
+* **intake:** where the flywheel is stuck, measured, and what unblocks it ([#4346](https://github.com/Ikalus1988/MisakaNet/issues/4346)) ([03f81ba](https://github.com/Ikalus1988/MisakaNet/commit/03f81ba961d49f3dfc485191d4e8976bfec48086))
+
 ## [3.5.0](https://github.com/Ikalus1988/MisakaNet/compare/v3.4.0...v3.5.0) (2026-11-01)
 
 
