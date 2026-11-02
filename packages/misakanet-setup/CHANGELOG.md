@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.1](https://github.com/Ikalus1988/MisakaNet/compare/misakanet-setup-v0.9.0...misakanet-setup-v0.9.1) (2026-11-02)
+
+
+### Bug Fixes
+
+* **setup:** resolve mcode's data dir instead of assuming ~/.minimax (fixes [#3838](https://github.com/Ikalus1988/MisakaNet/issues/3838)) ([#4319](https://github.com/Ikalus1988/MisakaNet/issues/4319)) ([ccd2d80](https://github.com/Ikalus1988/MisakaNet/commit/ccd2d80c762d5cbcad6dc98a5d56fdc192fbb47d))
+
 ## [0.9.0](https://github.com/Ikalus1988/MisakaNet/compare/misakanet-setup-v0.8.1...misakanet-setup-v0.9.0) (2026-10-30)
 
 
